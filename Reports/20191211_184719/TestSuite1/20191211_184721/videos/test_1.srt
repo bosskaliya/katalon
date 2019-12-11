@@ -1,0 +1,28 @@
+1
+00:00:00,251 --> 00:00:00,253
+1. openBrowser("http://lifecharger.org/")
+
+2
+00:00:03,220 --> 00:00:03,221
+5. click(findTestObject("Object Repository/Test3_OR/h2_Make the rest of your life the best of your life"))
+
+3
+00:00:03,322 --> 00:00:03,323
+9. setText(findTestObject("Object Repository/Test3_OR/input_Search for_s"), "life")
+
+4
+00:00:03,416 --> 00:00:03,419
+13. verifyElementPresent(findTestObject("Object Repository/Test3_OR/a_Home"), 4)
+
+5
+00:00:03,505 --> 00:00:03,506
+17. closeBrowser()
+
+6
+00:00:03,523 --> 00:00:03,523
+1. println("I am inside sampleAfterTestCase fuction")
+
+7
+00:00:05,566 --> 00:00:05,566
+1. println("I am inside sampleAfterTestSuite fuction")
+

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite2,Firefox 71.0,,,2019-12-11 18:47:35,2019-12-11 18:47:54,19.043s,PASSED
+,,,,,,,
+Test Cases/Login/Test3,Firefox 71.0,,,2019-12-11 18:47:36,2019-12-11 18:47:54,18.732s,PASSED
+Start listener action : onTestCaseStart,Firefox 71.0,,,2019-12-11 18:47:36,2019-12-11 18:47:36,0.001s,PASSED
+"openBrowser(""http://lifecharger.org/"")",Firefox 71.0,,,2019-12-11 18:47:36,2019-12-11 18:47:47,11.180s,PASSED
+"click(findTestObject(""Object Repository/Test3_OR/h2_Make the rest of your life the best of your life""))",Firefox 71.0,,,2019-12-11 18:47:47,2019-12-11 18:47:51,3.639s,PASSED
+"setText(findTestObject(""Object Repository/Test3_OR/input_Search for_s""), ""life"")",Firefox 71.0,,,2019-12-11 18:47:51,2019-12-11 18:47:51,0.121s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Test3_OR/a_Home""), 4)",Firefox 71.0,,,2019-12-11 18:47:51,2019-12-11 18:47:51,0.079s,PASSED
+closeBrowser(),Firefox 71.0,,,2019-12-11 18:47:51,2019-12-11 18:47:52,1.333s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 71.0,,,2019-12-11 18:47:52,2019-12-11 18:47:52,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 71.0,,,2019-12-11 18:47:52,2019-12-11 18:47:52,0.001s,PASSED
+Video,Firefox 71.0,,,2019-12-11 18:47:54,2019-12-11 18:47:54,0.000s,PASSED

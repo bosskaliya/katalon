@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2019-12-11 18:48:02,2019-12-11 18:48:08,6.328s,FAILED
+,,,,,,,
+Test Cases/Login/Test3,,,,2019-12-11 18:48:03,2019-12-11 18:48:08,5.819s,FAILED
+Start listener action : onTestCaseStart,,,,2019-12-11 18:48:03,2019-12-11 18:48:03,0.001s,PASSED
+"openBrowser(""http://lifecharger.org/"")",,,,2019-12-11 18:48:03,2019-12-11 18:48:06,2.968s,FAILED
+"click(findTestObject(""Object Repository/Test3_OR/h2_Make the rest of your life the best of your life""))",,,,2019-12-11 18:48:06,2019-12-11 18:48:06,0.102s,FAILED
+"setText(findTestObject(""Object Repository/Test3_OR/input_Search for_s""), ""life"")",,,,2019-12-11 18:48:06,2019-12-11 18:48:06,0.095s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Test3_OR/a_Home""), 4)",,,,2019-12-11 18:48:06,2019-12-11 18:48:06,0.086s,FAILED
+closeBrowser(),,,,2019-12-11 18:48:06,2019-12-11 18:48:06,0.010s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-11 18:48:06,2019-12-11 18:48:06,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-12-11 18:48:06,2019-12-11 18:48:06,0.001s,PASSED
+Video,,,,2019-12-11 18:48:08,2019-12-11 18:48:08,0.001s,PASSED

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="16.934" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="16.934" timestamp="2019-12-04 16:01:20" hostname="yovchev.m - DEW-YOVCHEV.ik.local" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yovchev.m\\Katalon Studio\\SampleProject\\Reports\\20191204_160116\\TestSuite1\\20191204_160116"/>
+         <property name="logFiles" value="C:\\Users\\yovchev.m\\Katalon Studio\\SampleProject\\Reports\\20191204_160116\\TestSuite1\\20191204_160116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yovchev.m - DEW-YOVCHEV.ik.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="browser" value="Firefox 70.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="c0514f87-2ec5-48fd-a254-b2aa9c673d65"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test3" time="16.616" classname="Test Cases/Login/Test3" status="PASSED">
+         <system-out><![CDATA[2019-12-04 16:01:21 - [TEST_CASE][PASSED] - Test Cases/Login/Test3: Test Cases/Login/Test3
+
+2019-12-04 16:01:21 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStart: null
+
+2019-12-04 16:01:21 - [TEST_STEP][PASSED] - println("I am inside onTestCaseStart fuction"): null
+
+2019-12-04 16:01:21 - [TEST_STEP][PASSED] - openBrowser("http://lifecharger.org/"): Browser is opened with url: 'http://lifecharger.org/'
+
+2019-12-04 16:01:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-04 16:01:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-04 16:01:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://lifecharger.org/'
+
+2019-12-04 16:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test3_OR/h2_Make the rest of your life the best of your life")): Object: 'Object Repository/Test3_OR/h2_Make the rest of your life the best of your life' is clicked on
+
+2019-12-04 16:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Test3_OR/h2_Make the rest of your life the best of your life' is clicked on
+
+2019-12-04 16:01:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test3_OR/input_Search for_s"), "life"): Text 'life' is set on object 'Object Repository/Test3_OR/input_Search for_s'
+
+2019-12-04 16:01:32 - [MESSAGE][PASSED] - Text 'life' is set on object 'Object Repository/Test3_OR/input_Search for_s'
+
+2019-12-04 16:01:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Test3_OR/a_Home"), 4): Object 'Object Repository/Test3_OR/a_Home' is present
+
+2019-12-04 16:01:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test3_OR/a_Home' is present
+
+2019-12-04 16:01:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-04 16:01:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-04 16:01:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-12-04 16:01:37 - [TEST_STEP][PASSED] - println("I am inside sampleAfterTestCase fuction"): null
+
+2019-12-04 16:01:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-04 16:01:20 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Login/Test3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
